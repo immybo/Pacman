@@ -13,6 +13,8 @@ namespace Pacman
         public static double MOVE_DIST = 0.1;
         // The tick time in ms
         public static int TICK_TIME = 50;
+        // The amount of points a pellet gives
+        public static int PELLET_SCORE = 10;
 
         public static DirectoryInfo BaseDirectory = Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).ToString());
 
